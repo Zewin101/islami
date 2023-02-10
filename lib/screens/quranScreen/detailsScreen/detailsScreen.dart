@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:islami/screens/quranScreen/detailsScreen/itemAyyat.dart';
 import 'package:islami/theme/myColors.dart';
 import '../../../../generated/assets.dart';
 import '../ItemQuran/suraModel.dart';
@@ -59,11 +60,8 @@ class _DetailsScreenState extends State<DetailsScreen> {
                   child: ListView.builder(
                       itemCount: ayaat.length,
                       itemBuilder: (context, index) {
-                        return Text(
-                         "(${index + 1}) ${ayaat[index]}",
-                        textAlign: TextAlign.center,
-                        style: Theme.of(context).textTheme.subtitle1,
-                        );
+                        return ItemNumberAyyat(index+1,
+                            ayaat[index]);
                       },
                     ),
                 ),

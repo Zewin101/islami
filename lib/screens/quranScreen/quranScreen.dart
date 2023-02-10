@@ -33,7 +33,7 @@ class QuranScreen extends StatelessWidget {
                   child: Text(
                 "عدد ايات السورة",
                 textAlign: TextAlign.center,
-                style: Theme.of(context).textTheme.subtitle1,
+                style: Theme.of(context).textTheme.subtitle2,
               )),
               Container(
                 height: 30,
@@ -44,7 +44,7 @@ class QuranScreen extends StatelessWidget {
                 child: Text(
                   "اسم السورة",
                   textAlign: TextAlign.center,
-                  style: Theme.of(context).textTheme.subtitle1,
+                  style: Theme.of(context).textTheme.subtitle2,
                 ),
               ),
             ],

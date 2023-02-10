@@ -2,6 +2,7 @@
 class Assets {
   Assets._();
 
+  static const String ahadethAhadeth  = 'assets/ahadeth/ahadeth .txt';
   static const String imagesBack2 = 'assets/images/back2.png';
   static const String imagesBodySebhaDark = 'assets/images/body_sebha_dark.png';
   static const String imagesBodySebhaLogo = 'assets/images/body_sebha_logo.png';
@@ -13,6 +14,7 @@ class Assets {
   static const String imagesIconRadio = 'assets/images/icon_radio.png';
   static const String imagesIconSebha = 'assets/images/icon_sebha.png';
   static const String imagesIslamiBackground = 'assets/images/islami_background.png';
+  static const String imagesItemAya = 'assets/images/itemAya.png';
   static const String imagesNewBack = 'assets/images/newBack.png';
   static const String imagesQur2anScreenLogo = 'assets/images/qur2an_screen_logo.png';
   static const String imagesRadioImage = 'assets/images/radio_image.png';
